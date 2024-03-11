@@ -7,14 +7,14 @@ type FAQsType = {
 
 const config = ({ t }: FAQsType) => [
   {
-    title: t('What is IceCreamSwap building?'),
+    title: t('What is WhaleChain building?'),
     description: [
       t('A one stop DeFi solution which users and founders can utilize on all chains and whichever DeFi utility they are searching for.' +
       " This removes the need to search for new utility providers on every blockchain and unifies all utility's in a single, simple to use, interface.")
     ],
   },
   {
-    title: t('How is IceCreamSwap protecting me?'),
+    title: t('How is WhaleChain protecting me?'),
     description: [
       t('There are multiple levels of user protection like KYCing listed projects, providing full time support on our Telegram and utilizing audited and battle tested smart contracts')
     ],
@@ -23,7 +23,7 @@ const config = ({ t }: FAQsType) => [
     title: t('Are the Swap contracts audited?'),
     description: [
       <Text as="p" color="textSubtle" fontSize="16px">
-        {t('Yes, IceCreamSwap has multiple audits including an Audit, Bug Bounty and KYC by CertiK: ',)}
+        {t('Yes, WhaleChain has multiple audits including an Audit, Bug Bounty and KYC by CertiK: ',)}
         <Link
           display="inline-flex"
           color="text"
@@ -42,7 +42,7 @@ const config = ({ t }: FAQsType) => [
     title: t('How is the Bridge secured?'),
     description: [
       <Text as="p" color="textSubtle" fontSize="16px">
-        {t(`The ${process.env.NEXT_PUBLIC_NAME_SYSTEM} bridge builds on top of the industry leading ChainBridge, by `)}
+        {t(`The WhaleChain bridge builds on top of the industry leading ChainBridge, by `)}
         <Link
           display="inline-flex"
           color="text"
@@ -77,15 +77,15 @@ const config = ({ t }: FAQsType) => [
     ],
   },
   {
-    title: t('How does the IceCreamSwap DEX aggregator help me?'),
+    title: t('How does the WhaleChain DEX aggregator help me?'),
     description: [
-      t('The IceCreamSwap DEX aggregator aggregates the entire liquidity on the chain to find the optimal trading route for your swap.' +
+      t('The WhaleChain DEX aggregator aggregates the entire liquidity on the chain to find the optimal trading route for your swap.' +
       ' Basically you are guaranteed that there is no better place to do the swap as we utilize all other providers to find the optimal execution for you.' +
       ' All this happens in the background and in a single transaction.'),
     ],
   },
   {
-    title: t('What is the IceCreamSwap KYC?'),
+    title: t('What is the WhaleChain KYC?'),
     description: [
       t('It is a fully automated Identity verification service that just takes a few minutes and mints you a soulbound token on completion, which attests the KYC on chain.' +
       ' Founders can use it to show their transparency and commitment to their project, while users can prove their unique identity to e.g. receive AirDrops not meant for Bots.' +
@@ -93,7 +93,7 @@ const config = ({ t }: FAQsType) => [
     ],
   },
   {
-    title: t('How to list a token on IceCreamSwap?'),
+    title: t('How to list a token on WhaleChain?'),
     description: [
       t('Simply contact us on our Telegram.'),
     ],
@@ -101,7 +101,7 @@ const config = ({ t }: FAQsType) => [
   {
     title: t('How to create a ERC20 token?'),
     description: [
-      t('IceCreamSwap has a simple utility for that, which fully automates the process. You can find it in the Token Deployer tab.'),
+      t('WhaleChain has a simple utility for that, which fully automates the process. You can find it in the Token Deployer tab.'),
     ],
   },
   {
@@ -120,7 +120,7 @@ const config = ({ t }: FAQsType) => [
         <Link
           display="inline-flex"
           color="text"
-          title="IceCreamSwap Wiki"
+          title="WhaleChain Wiki"
           href="https://whitepaper.whalechain.live"
         >
           {t('Wiki')}
@@ -130,9 +130,9 @@ const config = ({ t }: FAQsType) => [
     ],
   },
   {
-    title: t(`What is the address of the ${process.env.NEXT_PUBLIC_NAME_SYSTEM} token?`),
+    title: t(`What is the address of the WhaleChain token?`),
     description: [
-      t(`${process.env.NEXT_PUBLIC_NAME_SYSTEM} is a multi chain token and therefore available on and bridgable between multiple blockchains:`),
+      t(`WhaleChain is a multi chain token and therefore available on and bridgable between multiple blockchains:`),
       <br/>,
       t('0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44 CORE'),
       t('0xB999Ea90607a826A3E6E6646B404c3C7d11fa39D Bitgert'),
@@ -144,7 +144,7 @@ const config = ({ t }: FAQsType) => [
       t('0x867f08A3ab824b42e8058a1B48e32E1dF205b092 Fuse'),
       <br/>,
       <Text as="p" color="textSubtle" fontSize="16px">
-        {t(`An up to date list of all ${process.env.NEXT_PUBLIC_NAME_SYSTEM} addresses for all supported chains can be found on our `)}
+        {t(`An up to date list of all WhaleChain addresses for all supported chains can be found on our `)}
         <Link
           display="inline-flex"
           color="text"

@@ -31,7 +31,7 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
 export const bridgeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('Bridge securely between many chains'),
   bodyText: t(
-    'IceCreamSwap allows direct bridging between many chains with ' +
+    'WhaleChain allows direct bridging between many chains with ' +
       'its audited and battle tested smart contracts. ' +
       'The unique built-in faucet automatically drops you native tokens when you bridge to a new chain.'
   ),

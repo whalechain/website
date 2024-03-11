@@ -10,7 +10,7 @@ const config = ({ t }: FAQsType) => [
     title: t('Launch'),
     description: [
       t('Launch of the Swap and liquidity provision functionality on Bitgert'),
-      t(`Multiple ${process.env.NEXT_PUBLIC_NAME_SYSTEM} airdrops to the community`),
+      t(`Multiple WhaleChain airdrops to the community`),
       t('Add Bitgert bridged tokens to the default token list'),
       t('Create an analytics page for the swap to show all pools, their liquidity, volume and much more'),
     ],
@@ -23,7 +23,7 @@ const config = ({ t }: FAQsType) => [
       t('Partner with and list Bitgert projects'),
       t('AMA sessions to spread the word and inform users'),
       t('Work very close with the Bitgert blockchain team'),
-      t(`More ${process.env.NEXT_PUBLIC_NAME_SYSTEM} Airdrops`),
+      t(`More WhaleChain Airdrops`),
     ],
     reached: '07-2022',
   },
@@ -50,7 +50,7 @@ const config = ({ t }: FAQsType) => [
     title: t('UI upgrades'),
     icon: '👨‍💻',
     description: [
-      t('Upgrade from Uniswap based UI to IceCreamSwap based UI'),
+      t('Upgrade from Uniswap based UI to WhaleChain based UI'),
       t('Upgrade from weekly AirDrops to continuous liquidity farming')
     ],
     reached: '12-2022',
