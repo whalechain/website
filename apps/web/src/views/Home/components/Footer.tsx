@@ -114,7 +114,7 @@ const Footer = () => {
           <Button
             as="a"
             title={t('IceCreamSwap Twitter')}
-            href="https://twitter.com/icecream_swap"
+            href="https://twitter.com/whalechainetwork"
             variant="primary"
             scale="md"
             mr="8px"
@@ -124,7 +124,7 @@ const Footer = () => {
           <Button
             as="a"
             title={t('IceCreamSwap Telegram')}
-            href="https://t.me/Icecreamswap_com"
+            href="https://t.me/whalechainetwork"
             variant="primary"
             scale="md"
             mr="8px"
