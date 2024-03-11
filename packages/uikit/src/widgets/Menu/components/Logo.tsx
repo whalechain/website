@@ -53,12 +53,12 @@ const Logo: React.FC<React.PropsWithChildren<Props>> = ({ href }) => {
   return (
     <Flex alignItems="center">
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="IceCream home page">
+        <StyledLink as="a" href={href} aria-label="home page">
           {innerLogo}
         </StyledLink>
       ) : (
         <Link legacyBehavior href={href} passHref prefetch={false}>
-          <StyledLink aria-label="IceCream home page">{innerLogo}</StyledLink>
+          <StyledLink aria-label="home page">{innerLogo}</StyledLink>
         </Link>
       )}
     </Flex>

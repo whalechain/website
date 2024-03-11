@@ -132,7 +132,7 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading as="h1" scale="xxl" color="secondary" mb="24px">
-            {t('IceCream brings people together')}
+            {t(`${process.env.NEXT_PUBLIC_NAME_SYSTEM} brings people together`)}
           </Heading>
           <Heading as="p" scale="md" mb="24px">
             {/* todo: make links display somewhat like the text, maybe a small underline or so. */}
@@ -176,7 +176,7 @@ const Hero = () => {
               priority
               objectFit="fill"
               placeholder="blur"
-              alt={t('IceCream Store')}
+              alt={t('Store')}
             />
           </BunnyWrapper>
           <StarsWrapper>

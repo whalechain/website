@@ -35,7 +35,7 @@ const CampaignCardHeader: React.FC<LaunchpadCardHeaderProps> = (props) => {
       <CurrencyLogo currency={token} size="60px" />
       <Flex flexDirection="column" alignItems="flex-end" gap="4px">
         <Heading>
-          {campaign.tokenAddress === '0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44' ? 'IceCream' : token?.name}
+          {campaign.tokenAddress === '0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44' ? process.env.NEXT_PUBLIC_NAME_SYSTEM : token?.name}
         </Heading>
         <Flex justifyContent="center" style={{ gap: '0.5em' }}>
           {campaign.tags.map((tag) => {

@@ -1,9 +1,7 @@
 import { TranslateFunction } from '@pancakeswap/localization'
 import { SalesSectionProps } from '.'
 import iceConeA from '../../../../../public/images/home/trade/iceconea.png'
-import iceConeB from '../../../../../public/images/home/trade/iceconeb.png'
 import bridgeA from '../../../../../public/images/home/bridge/bridge_a.png'
-import bridgeB from '../../../../../public/images/home/bridge/bridge_b.png'
 import earnIce from '../../../../../public/images/home/earn/ice.png'
 
 export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
@@ -26,7 +24,6 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
     path: '/images/home/trade/',
     attributes: [
       { src: iceConeA, alt: '' },
-      { src: iceConeB, alt: '' },
     ],
   },
 })
@@ -53,25 +50,20 @@ export const bridgeSectionData = (t: TranslateFunction): SalesSectionProps => ({
     path: '/images/home/earn/',
     attributes: [
       { src: bridgeA, alt: '' },
-      { src: bridgeB, alt: '' },
     ],
   },
 })
 
-export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
-  headingText: t('Earn, receive ICE tokens when providing liquidity'),
-  bodyText: t('With liquidity farms, you can boost your passive income APY for liquidity provision.'),
+export const whitepaperSectionData = (t: TranslateFunction): SalesSectionProps => ({
+  headingText: t('Whitepaper'),
+  bodyText: t('Dive into the intricacies and possibilities that lie ahead by delving into our comprehensive whitepaper. Uncover the blueprint that defines the future trajectory of WhaleChain, unraveling the innovative technologies, groundbreaking concepts, and visionary strategies that propel our project into the forefront of the digital landscape.'),
   reverse: false,
   primaryButton: {
-    to: '/farms',
-    text: t('Farms'),
+    to: 'https://whitepaper.whalechain.live/',
+    text: t('Whitepaper'),
     external: false,
   },
-  secondaryButton: {
-    to: 'https://wiki.icecreamswap.com/dex/farm',
-    text: t('Learn'),
-    external: true,
-  },
+  secondaryButton: null,
   images: {
     path: '/images/home/ice/',
     attributes: [{ src: earnIce, alt: '' }],

@@ -42,7 +42,7 @@ const config = ({ t }: FAQsType) => [
     title: t('How is the Bridge secured?'),
     description: [
       <Text as="p" color="textSubtle" fontSize="16px">
-        {t('The IceCream bridge builds on top of the industry leading ChainBridge, by ')}
+        {t(`The ${process.env.NEXT_PUBLIC_NAME_SYSTEM} bridge builds on top of the industry leading ChainBridge, by `)}
         <Link
           display="inline-flex"
           color="text"
@@ -130,9 +130,9 @@ const config = ({ t }: FAQsType) => [
     ],
   },
   {
-    title: t('What is the address of the IceCream token?'),
+    title: t(`What is the address of the ${process.env.NEXT_PUBLIC_NAME_SYSTEM} token?`),
     description: [
-      t('IceCream is a multi chain token and therefore available on and bridgable between multiple blockchains:'),
+      t(`${process.env.NEXT_PUBLIC_NAME_SYSTEM} is a multi chain token and therefore available on and bridgable between multiple blockchains:`),
       <br/>,
       t('0xc0E49f8C615d3d4c245970F6Dc528E4A47d69a44 CORE'),
       t('0xB999Ea90607a826A3E6E6646B404c3C7d11fa39D Bitgert'),
@@ -144,7 +144,7 @@ const config = ({ t }: FAQsType) => [
       t('0x867f08A3ab824b42e8058a1B48e32E1dF205b092 Fuse'),
       <br/>,
       <Text as="p" color="textSubtle" fontSize="16px">
-        {t('An up to date list of all IceCream addresses for all supported chains can be found on our ')}
+        {t(`An up to date list of all ${process.env.NEXT_PUBLIC_NAME_SYSTEM} addresses for all supported chains can be found on our `)}
         <Link
           display="inline-flex"
           color="text"

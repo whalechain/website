@@ -10,7 +10,7 @@ const config = ({ t }: FAQsType) => [
     title: t('Launch'),
     description: [
       t('Launch of the Swap and liquidity provision functionality on Bitgert'),
-      t('Multiple IceCream airdrops to the community'),
+      t(`Multiple ${process.env.NEXT_PUBLIC_NAME_SYSTEM} airdrops to the community`),
       t('Add Bitgert bridged tokens to the default token list'),
       t('Create an analytics page for the swap to show all pools, their liquidity, volume and much more'),
     ],
@@ -23,7 +23,7 @@ const config = ({ t }: FAQsType) => [
       t('Partner with and list Bitgert projects'),
       t('AMA sessions to spread the word and inform users'),
       t('Work very close with the Bitgert blockchain team'),
-      t('More IceCream Airdrops'),
+      t(`More ${process.env.NEXT_PUBLIC_NAME_SYSTEM} Airdrops`),
     ],
     reached: '07-2022',
   },
