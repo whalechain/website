@@ -121,7 +121,7 @@ const config = ({ t }: FAQsType) => [
           display="inline-flex"
           color="text"
           title="IceCreamSwap Wiki"
-          href="https://wiki.icecreamswap.com/intro/multichain"
+          href="https://whitepaper.whalechain.live"
         >
           {t('Wiki')}
         </Link>
@@ -150,7 +150,7 @@ const config = ({ t }: FAQsType) => [
           color="text"
           title={t('Wiki')}
           external
-          href="https://wiki.icecreamswap.com/intro/ice"
+          href="https://whitepaper.whalechain.live"
         >
           {t('Wiki')}
         </Link>

@@ -258,5 +258,5 @@ const docLangCodeMapping: Record<string, string> = {
 
 export const getDocLink = (code: string) =>
   docLangCodeMapping[code]
-    ? `https://wiki.icecreamswap.com/v/${docLangCodeMapping[code]}/get-started/setup-wallet`
-    : `https://wiki.icecreamswap.com/get-started/setup-wallet`
+    ? `https://whitepaper.whalechain.live/v/${docLangCodeMapping[code]}/get-started/setup-wallet`
+    : `https://whitepaper.whalechain.live/get-started/setup-wallet`

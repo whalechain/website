@@ -114,7 +114,7 @@ export const TradeSummary = memo(function TradeSummary({
                       style={{ display: 'inline' }}
                       ml="4px"
                       external
-                      href="https://wiki.icecreamswap.com/dex/swap#fees"
+                      href="https://whitepaper.whalechain.live"
                     >
                       {t('Fee Breakdown and Tokenomics')}
                     </Link>
