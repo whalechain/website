@@ -126,6 +126,15 @@ const config: (
       items: [],
     },
     {
+      label: t('Explorer'),
+      href: 'https://explorer.whalechain.live',
+      icon: InfoIcon,
+      hideSubNav: true,
+      showItemsOnMobile: false,
+      supportChainIds: SUPPORT_INFO,
+      items: [],
+    },
+    {
       label: t('More'),
       icon: MoreHorizontalIcon,
       showItemsOnMobile: true,
