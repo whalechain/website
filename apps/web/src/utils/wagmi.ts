@@ -54,7 +54,7 @@ export const coinbaseConnector = new CoinbaseWalletConnector({
   chains,
   options: {
     appName: 'WhaleChain',
-    appLogoUrl: 'https://icecreamswap.com/favicon.ico',
+    appLogoUrl: 'https://whalechain.live/favicon.ico',
   },
 })
 

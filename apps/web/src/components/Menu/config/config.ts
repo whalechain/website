@@ -77,27 +77,27 @@ const config: (
         }, */
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
-    {
-      label: t('Earn'),
-      href: '/farms',
-      icon: EarnIcon,
-      fillIcon: EarnFillIcon,
-      image: '/images/decorations/pe2.png',
-      showItemsOnMobile: false,
-      supportChainIds: [...SUPPORT_FARMS, ...SUPPORT_STAKING],
-      items: [
-        {
-          label: t('Liquidity Farms'),
-          href: '/farms',
-          supportChainIds: SUPPORT_FARMS,
-        },
-        {
-          label: t('Staking'),
-          href: '/pools',
-          supportChainIds: SUPPORT_STAKING,
-        },
-      ].map((item) => addMenuItemSupported(item, chainId)),
-    },
+    // {
+    //   label: t('Earn'),
+    //   href: '/farms',
+    //   icon: EarnIcon,
+    //   fillIcon: EarnFillIcon,
+    //   image: '/images/decorations/pe2.png',
+    //   showItemsOnMobile: false,
+    //   supportChainIds: [...SUPPORT_FARMS, ...SUPPORT_STAKING],
+    //   items: [
+    //     {
+    //       label: t('Liquidity Farms'),
+    //       href: '/farms',
+    //       supportChainIds: SUPPORT_FARMS,
+    //     },
+    //     {
+    //       label: t('Staking'),
+    //       href: '/pools',
+    //       supportChainIds: SUPPORT_STAKING,
+    //     },
+    //   ].map((item) => addMenuItemSupported(item, chainId)),
+    // },
     {
       label: t('Bridge'),
       href: '/bridge',
@@ -137,26 +137,26 @@ const config: (
           href: '/locks',
           supportChainIds: SUPPORT_LOCKS,
         },
-        {
-          label: t('KYC'),
-          href: '/kyc',
-          supportChainIds: SUPPORT_KYC,
-          items: [
-            {
-              label: t('KYC'),
-              href: '/kyc',
-            },
-            {
-              label: t('KYC Checker'),
-              href: '/kyc-checker',
-            },
-            {
-              label: t('KYC Delegator'),
-              href: '/kyc-delegator',
-              supportChainIds: SUPPORT_KYC_DELEGATION,
-            },
-          ],
-        },
+        // {
+        //   label: t('KYC'),
+        //   href: '/kyc',
+        //   supportChainIds: SUPPORT_KYC,
+        //   items: [
+        //     {
+        //       label: t('KYC'),
+        //       href: '/kyc',
+        //     },
+        //     {
+        //       label: t('KYC Checker'),
+        //       href: '/kyc-checker',
+        //     },
+        //     {
+        //       label: t('KYC Delegator'),
+        //       href: '/kyc-delegator',
+        //       supportChainIds: SUPPORT_KYC_DELEGATION,
+        //     },
+        //   ],
+        // },
         {
           label: t('Launchpad'),
           href: '/launchpad',

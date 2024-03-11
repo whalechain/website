@@ -86,7 +86,7 @@ function MyApp(props: AppProps<{ initialReduxState: any }>) {
         />
         <meta name="theme-color" content="#F8567F" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://icecreamswap.com/images/hero.png" />
+        <meta name="twitter:image" content="https://whalechain.live/images/hero.png" />
         <meta name="twitter:title" content="🍦 WhaleChain - Multi-chain DeFi ecosystem" />
         <meta
           name="twitter:description"
