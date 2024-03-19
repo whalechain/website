@@ -234,7 +234,7 @@ const config: (
         },
         {
           label: t('Docs'),
-          href: 'https://docs.icecreamswap.com',
+          href: 'https://docs.whalechain.live',
           type: DropdownMenuItemType.EXTERNAL_LINK,
         },
       ].map((item) => addMenuItemSupported(item, chainId)),

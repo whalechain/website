@@ -63,9 +63,9 @@ const walletsConfig = ({
       icon: '/images/wallets/metamask.png',
       installed: typeof window !== 'undefined' && Boolean(window.ethereum?.isMetaMask) && metaMaskConnector.ready,
       connectorId: ConnectorNames.MetaMask,
-      deepLink: 'https://metamask.app.link/dapp/icecreamswap.com/',
+      deepLink: 'https://metamask.app.link/dapp/whalechain.live/',
       qrCode,
-      downloadLink: 'https://metamask.app.link/dapp/icecreamswap.com/',
+      downloadLink: 'https://metamask.app.link/dapp/whalechain.live/',
     },
     {
       id: 'binance',

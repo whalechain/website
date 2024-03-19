@@ -43,7 +43,7 @@ const chains = [
     name: 'Bitgert',
     decimals: 18,
     bridgeAddress: '0x6A6A2C9A9e9dDf3a6D76B8e1d05701d7D57596B8' as Address,
-    rpcUrl: 'https://rpc.icecreamswap.com',
+    rpcUrl: 'https://rpc.whalechain.live',
     type: 'Ethereum',
     nativeTokenSymbol: 'Brise',
     tokens: [
@@ -99,7 +99,7 @@ const chains = [
     name: 'CORE',
     decimals: 18,
     bridgeAddress: '0x88cD606B63C4665499ad0d47d4685d2ffc78e2Be'  as Address,
-    rpcUrl: 'https://rpc-core.icecreamswap.com',
+    rpcUrl: 'https://rpc-core.whalechain.live',
     type: 'Ethereum',
     nativeTokenSymbol: 'CORE',
     tokens: [
@@ -223,7 +223,7 @@ const chains = [
     name: 'Scroll',
     decimals: 18,
     bridgeAddress: '0xd65CceCFf339e5680b1A1E7821421932cc2b114f' as Address,
-    rpcUrl: 'https://rpc-scroll.icecreamswap.com',
+    rpcUrl: 'https://rpc-scroll.whalechain.live',
     type: 'Ethereum',
     nativeTokenSymbol: 'ETH',
     tokens: [

@@ -14,7 +14,7 @@ import { FarmKV } from './kv'
 
 
 export const V3_SUBGRAPH_CLIENTS = {
-  [ChainId.CORE]: new GraphQLClient('https://the-graph.icecreamswap.com/subgraphs/name/icecreamswap/exchange-v3-core', {
+  [ChainId.CORE]: new GraphQLClient('https://the-graph.whalechain.live/subgraphs/name/icecreamswap/exchange-v3-core', {
     fetch,
   }),
 } satisfies Record<FarmV3SupportedChainId, GraphQLClient>

@@ -15,6 +15,7 @@ import { scroll } from "./scroll"
 import { neon } from "./neon"
 import { blast } from "./blast"
 import { whalechain } from "./whalechain"
+import { fortresschain } from "./fortresschain"
 
 export const chainMap = {
   core,
@@ -33,6 +34,7 @@ export const chainMap = {
   dokenchain,
   shardeumTestnet,
   whalechain,
+  fortresschain,
   // shimmerTestnet,
 }
 export const chains = Object.values(chainMap)
@@ -48,6 +50,7 @@ export enum ChainId {
   SHIMMER = shimmer.id,
   BSC = bsc.id,
   WHALECHAIN = whalechain.id,
+  FORTRESSCHAIN = fortresschain.id,
   SCROLL = scroll.id,
   XDC = xdc.id,
   TELOS = telos.id,
