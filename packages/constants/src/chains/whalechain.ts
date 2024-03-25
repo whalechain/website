@@ -8,8 +8,8 @@ export const whalechain: IceChain = {
   features: [],
   network: 'whalechain',
   rpcUrls: {
-    public: { http: ['https://testnet.whalechain.live'] },
-    default: { http: ['https://testnet.whalechain.live'] },
+    public: { http: ['https://rpc.whalechain.live'] },
+    default: { http: ['https://rpc.whalechain.live'] },
   },
   blockExplorers: {
     default: whalechianExplorer,
@@ -23,14 +23,14 @@ export const whalechain: IceChain = {
   blockInterval: 3,
   contracts: {
     multicall3: {
-      address: '0xcA11bde05977b3631167028862bE2a173976CA11',
-      blockCreated: 15921452,
+      address: '0x58374895C079aDC356f90D3C45e0d07296B6c2F2',
+      blockCreated: 19516,
     },
   },
   wrappedNative: {
-    address: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+    address: '0x328b61E6e1d94bA83A0cb44163932B3cd30BC155',
     decimals: 18,
-    symbol: 'WBNB',
-    name: 'Wrapped BNB',
+    symbol: 'wWHALE',
+    name: 'Wrapped WHALE',
   },
 }
