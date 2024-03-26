@@ -24,22 +24,28 @@ How to start
 </summary>
 
 ```sh
-pnpm i
+npx pnpm i
+```
+
+populate database
+
+```sh
+cd packages/database && yarn db:migrate
 ```
 
 start the development server
 
 ```sh
-pnpm dev
+npx pnpm dev
 ```
 
 build with production mode
 
 ```sh
-pnpm build
+npx pnpm build
 
 # start the application after build
-pnpm start
+npx pnpm start
 ```
 
 </details>

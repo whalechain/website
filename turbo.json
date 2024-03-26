@@ -7,6 +7,18 @@
       "env": ["RISK_APP_SECRET", "SERVER_NODE_REAL_API_ETH", "SERVER_NODE_REAL_API_GOERLI"],
       "outputs": ["dist/**", ".next/**/*", "!.next/cache/**", "!.vercel/**/*"]
     },
+    "db:generate": {
+      "cache": false
+    },
+    "db:push": {
+      "cache": false
+    },
+    "db:deploy": {
+      "cache": false
+    },
+    "db:migrate": {
+      "cache": false
+    },
     "test": {
       "outputs": ["coverage/**"],
       "dependsOn": ["^build"]

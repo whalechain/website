@@ -97,7 +97,7 @@ export const tokenRouter = router({
     const tokensSorted = kycedTokens.concat(nonKycedTokens)
 
     return {
-      name: 'IceCreamSwap Default',
+      name: 'WhaleChain Default',
       timestamp: new Date().toISOString(),
       version: {
         major: 1,
@@ -106,7 +106,7 @@ export const tokenRouter = router({
       },
       tags: {},
       logoURI: 'https://whalechain.live/logo.png',
-      keywords: ['icecreamswap', 'default'],
+      keywords: ['whalechain', 'default'],
       tokens: tokensSorted.map((token) => ({
         name: token.name,
         symbol: token.symbol,
