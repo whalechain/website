@@ -8,7 +8,7 @@ const chainName: Record<ChainId, string> = {
   // [ChainId.FUSE]: 'Fuse',
   // [ChainId.XDC]: 'XDC',
   [ChainId.BSC]: 'Binance',
-  [ChainId.WHALECHAIN]: 'WhaleChain',
+  [ChainId.CORE]: 'WhaleChain',
   [ChainId.FORTRESSCHAIN]: 'FortressChain',
   // [ChainId.CORE]: 'CORE',
   // [ChainId.XODEX]: 'XODEX',

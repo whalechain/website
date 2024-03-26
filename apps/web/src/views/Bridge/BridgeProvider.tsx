@@ -224,7 +224,6 @@ export const BridgeProvider: React.FC<PropsWithChildren> = ({ children }) => {
     if (!nativeToken) return false
     return destinationChainConfig?.tokens.some((token) => token.resourceId === nativeToken.resourceId)
   }, [destinationChainConfig?.tokens, homeChainConfig?.tokens])
-
   return (
     <BridgeContext.Provider
       value={{

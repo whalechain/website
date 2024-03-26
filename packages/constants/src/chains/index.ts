@@ -14,7 +14,6 @@ import { shimmer } from "./shimmer"
 import { scroll } from "./scroll"
 import { neon } from "./neon"
 import { blast } from "./blast"
-import { whalechain } from "./whalechain"
 import { fortresschain } from "./fortresschain"
 
 export const chainMap = {
@@ -33,7 +32,6 @@ export const chainMap = {
   xodex,
   dokenchain,
   shardeumTestnet,
-  whalechain,
   fortresschain,
   // shimmerTestnet,
 }
@@ -49,7 +47,6 @@ export enum ChainId {
   NEON = neon.id,
   SHIMMER = shimmer.id,
   BSC = bsc.id,
-  WHALECHAIN = whalechain.id,
   FORTRESSCHAIN = fortresschain.id,
   SCROLL = scroll.id,
   XDC = xdc.id,
@@ -64,4 +61,4 @@ export enum ChainId {
   SHIMMER_TEST = shimmerTestnet.id,
 }
 
-export const defaultChainId = ChainId.WHALECHAIN
+export const defaultChainId = ChainId.CORE

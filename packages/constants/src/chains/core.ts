@@ -2,27 +2,27 @@ import { FACTORY_ADDRESS, INIT_CODE_HASH, ROUTER_ADDRESS } from "../common/swap"
 import IceChain from '../ice-chain'
 
 export const core: IceChain = {
-  id: 1116,
-  name: 'Core Blockchain Mainnet',
-  features: [],
+  id: 370,
+  name: 'WhaleChain Mainnet',
+  features: ['swap', 'bridge'],
   // features: ['swap', 'swapV3', 'bridge', 'farms', 'farmsV3', 'locks', 'staking', 'info', 'kyc', 'launchpad', 'tokenDeployer'],
-  network: 'core',
+  network: 'whalechain',
   rpcUrls: {
-    public: { http: ['https://rpc-core.whalechain.live'] },
-    default: { http: ['https://rpc-core.whalechain.live'] },
+    public: { http: ['https://rpc.whalechain.live'] },
+    default: { http: ['https://rpc.whalechain.live'] },
   },
   blockExplorers: {
-    default: { name: 'CORE Explorer', url: 'https://scan.coredao.org' },
+    default: { name: 'Explorer', url: 'https://explorer.whalechain.live' },
   },
   nativeCurrency: {
-    name: 'CORE',
-    symbol: 'CORE',
+    name: 'WhaleChain Native Token',
+    symbol: 'WHALE',
     decimals: 18,
   },
   contracts: {
     multicall3: {
-      address: '0xf3a3dAf360161B2f10c645EF039C709A3Fd4Ea62',
-      blockCreated: 852772,
+      address: '0x58374895C079aDC356f90D3C45e0d07296B6c2F2',
+      blockCreated: 19516,
     },
   },
   tokenDeployerDividend: {
@@ -35,15 +35,15 @@ export const core: IceChain = {
   },
   blockInterval: 3,
   wrappedNative: {
-    address: '0xb0788B601C0D712702bc829B52771199ad8E33Ff',
+    address: '0x328b61E6e1d94bA83A0cb44163932B3cd30BC155',
     decimals: 18,
-    symbol: 'WCORE',
-    name: 'Wrapped Core',
+    symbol: 'wWHALE',
+    name: 'Wrapped WHALE',
   },
   swap: {
-    factoryAddress: FACTORY_ADDRESS,
-    routerAddress: ROUTER_ADDRESS,
-    initCodeHash: INIT_CODE_HASH,
+    factoryAddress: '0x957A89f276D0D965C6Ed9dd9EE24c5e69D79D0B0',
+    routerAddress: '0xf03e3c32b1DF8A07BAC7A9fb1a584049D8A1c562',
+    initCodeHash: '0x0168a4c1cffa0b0cba36f7e25f59660fa88c981095ca7dd04b93a8b93757392e',
   },
   campaignFactory: '0x79218D6d562a435ec258f2f4D8D17f1DEbbb114a',
   kyc: {

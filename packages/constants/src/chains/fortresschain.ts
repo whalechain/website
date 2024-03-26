@@ -5,7 +5,7 @@ const fortresschainExplorer = { name: 'Explorer', url: 'https://explorer.fortres
 export const fortresschain: IceChain = {
   id: 372,
   name: 'FortressChain Mainnet',
-  features: ['swap', 'tokenDeployer'],
+  features: ['swap', 'tokenDeployer', 'bridge'],
   network: 'FortressChain',
   rpcUrls: {
     public: { http: ['https://rpc.fortresschain.finance'] },
