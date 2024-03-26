@@ -5,7 +5,7 @@ const whalechianExplorer = { name: 'Explorer', url: 'https://explorer.whalechain
 export const whalechain: IceChain = {
   id: 370,
   name: 'WhaleChain Mainnet',
-  features: ['swap', 'tokenDeployer'],
+  features: ['swap', 'bridge'],
   network: 'whalechain',
   rpcUrls: {
     public: { http: ['https://rpc.whalechain.live'] },
