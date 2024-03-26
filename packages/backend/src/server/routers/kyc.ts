@@ -13,7 +13,7 @@ import contractKycAbi from '../../abi/contractKyc.json'
 import { getDeploymentUrl } from '../getDeploymentUrl'
 import { solidityKeccak256 } from 'ethers/lib/utils'
 
-const core = getChain(1116)!
+const core = getChain(370)!
 const provider = new providers.JsonRpcProvider(core.rpcUrls.default.http[0])
 export const kycRouter = router({
   delegate: publicProcedure
